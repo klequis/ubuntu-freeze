@@ -1,0 +1,677 @@
+ sudo journalctl  -b -1 -e
+Jul 16 09:43:44 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:44.921] [120] (rtcp_receiver.cc:309): OnPeriodicRttUpdate:>
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.047] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.411] [100] (discord.cpp:551): JS console: ["%c[RTCContr>
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.412] [100] (discord.cpp:551): JS console: ["%c[RTCContr>
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.722] [3812] (udp_socket.cpp:608): Reconnection started,>
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.876] [3812] (socket_client.cpp:277): Ping timeout from:>
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22>
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.996] [3985] (socket_client.cpp:277): Ping timeout from:>
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.996] [3985] (udp_socket.cpp:875): Sending ping to 66.22>
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=US
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: SME: Trying to authenticate with 6c:4b:b4:4f:1b:54 (SSID='Proton' freq=2452 MHz)
+Jul 16 09:43:48 klequis kernel: wlp3s0: authenticate with 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0309] device (wlp3s0): supplicant interface state: scanning -> authenticat>
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0309] device (p2p-dev-wlp3s0): supplicant management interface state: scan>
+Jul 16 09:43:48 klequis kernel: wlp3s0: send auth to 6c:4b:b4:4f:1b:54 (try 1/3)
+Jul 16 09:43:48 klequis kernel: wlp3s0: authenticated
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: Trying to associate with 6c:4b:b4:4f:1b:54 (SSID='Proton' freq=2452 MHz)
+Jul 16 09:43:48 klequis kernel: wlp3s0: associate with 6c:4b:b4:4f:1b:54 (try 1/3)
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: Associated with 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0481] device (wlp3s0): supplicant interface state: authenticating -> assoc>
+Jul 16 09:43:48 klequis kernel: wlp3s0: RX AssocResp from 6c:4b:b4:4f:1b:54 (capab=0x411 status=0 aid=19)
+Jul 16 09:43:48 klequis kernel: wlp3s0: associated
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0482] device (p2p-dev-wlp3s0): supplicant management interface state: auth>
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (wlp3s0): supplicant interface state: associating -> 4way_han>
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (p2p-dev-wlp3s0): supplicant management interface state: asso>
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (wlp3s0): ip:dhcp4: restarting
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): canceled DHCP transaction
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 sec>
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): state changed no lease
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 sec>
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] device (wlp3s0): ip:dhcp6: restarting
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): canceled DHCP transaction
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): activation: beginning transaction (timeout in 45 sec>
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): state changed no lease
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0725] dhcp6 (wlp3s0): activation: beginning transaction (timeout in 45 sec>
+Jul 16 09:43:48 klequis kernel: wlp3s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: WPA: Key negotiation completed with 6c:4b:b4:4f:1b:54 [PTK=CCMP GTK=CCMP]
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-CONNECTED - Connection to 6c:4b:b4:4f:1b:54 completed [id=0 id_str=]
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-50 noise=9999 txrate=1000
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.4272] device (wlp3s0): supplicant interface state: 4way_handshake -> compl>
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.4274] device (p2p-dev-wlp3s0): supplicant management interface state: 4way>
+Jul 16 09:43:48 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:48.720] [124] (audio_device_buffer.cc:411): [REC : 10008ms>
+Jul 16 09:43:48 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:48.720] [124] (audio_device_buffer.cc:437): [PLAY: 10008ms>
+Jul 16 09:43:49 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:49.048] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:49 klequis NetworkManager[788]: <info>  [1657989829.1257] dhcp6 (wlp3s0): state changed new lease, address=2600:1700:4540:c290>
+Jul 16 09:43:49 klequis dbus-daemon[786]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.free>
+Jul 16 09:43:49 klequis systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jul 16 09:43:49 klequis dbus-daemon[786]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 16 09:43:49 klequis systemd[1]: Started Network Manager Script Dispatcher Service.
+Jul 16 09:43:51 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-68 noise=9999 txrate=72200
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.816] [100] (discord.cpp:551): JS console: ["%c[RTCContr>
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.877] [3812] (socket_client.cpp:277): Ping timeout from:>
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.877] [3812] (udp_socket.cpp:875): Sending ping to 66.22>
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.907] [3812] (socket_client.cpp:263): Ping received from>
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.997] [3985] (socket_client.cpp:277): Ping timeout from:>
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.997] [3985] (udp_socket.cpp:875): Sending ping to 66.22>
+Jul 16 09:43:52 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:52.024] [3985] (socket_client.cpp:263): Ping received from>
+Jul 16 09:43:52 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:52.052] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:53 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:53.159] [100] (discord.cpp:551): JS console: ["%c[RTCContr>
+Jul 16 09:43:53 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:53.159] [100] (discord.cpp:551): JS console: ["%c[RTCContr>
+Jul 16 09:43:53 klequis NetworkManager[788]: <info>  [1657989833.8077] dhcp4 (wlp3s0): state changed new lease, address=192.168.1.199
+Jul 16 09:43:53 klequis avahi-daemon[782]: Withdrawing address record for 192.168.1.198 on wlp3s0.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Leaving mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.1.198.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Interface wlp3s0.IPv4 no longer relevant for mDNS.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Joining mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.1.199.
+Jul 16 09:43:53 klequis avahi-daemon[782]: New relevant interface wlp3s0.IPv4 for mDNS.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Registering new address record for 192.168.1.199 on wlp3s0.IPv4.
+Jul 16 09:43:55 klequis systemd-logind[814]: Power key pressed.
+Jul 16 09:43:55 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:55.052] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22>
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.903] [3812] (socket_client.cpp:263): Ping received from>
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.998] [3985] (udp_socket.cpp:875): Sending ping to 66.22>
+Jul 16 09:43:57 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:57.029] [3985] (socket_client.cpp:263): Ping received from>
+lines 927-1000/1000 (END)
+Jul 16 09:43:44 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:44.921] [120] (rtcp_receiver.cc:309): OnPeriodicRttUpdate: Timeout: No RTCP RR received.
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.047] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.411] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[RECONNECT] wasClean=false code=4800 reason=Heartbeat timeout."]
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.412] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[CONNECT] wss://seattle5189.discord.media/"]
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.722] [3812] (udp_socket.cpp:608): Reconnection started, sending echo
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.876] [3812] (socket_client.cpp:277): Ping timeout from: 66.22.230.152:50003, seq: 492
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 493
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.996] [3985] (socket_client.cpp:277): Ping timeout from: 66.22.230.170:50001, seq: 186
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.996] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 187
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=US
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: SME: Trying to authenticate with 6c:4b:b4:4f:1b:54 (SSID='Proton' freq=2452 MHz)
+Jul 16 09:43:48 klequis kernel: wlp3s0: authenticate with 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0309] device (wlp3s0): supplicant interface state: scanning -> authenticating
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0309] device (p2p-dev-wlp3s0): supplicant management interface state: scanning -> authenticating
+Jul 16 09:43:48 klequis kernel: wlp3s0: send auth to 6c:4b:b4:4f:1b:54 (try 1/3)
+Jul 16 09:43:48 klequis kernel: wlp3s0: authenticated
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: Trying to associate with 6c:4b:b4:4f:1b:54 (SSID='Proton' freq=2452 MHz)
+Jul 16 09:43:48 klequis kernel: wlp3s0: associate with 6c:4b:b4:4f:1b:54 (try 1/3)
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: Associated with 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0481] device (wlp3s0): supplicant interface state: authenticating -> associating
+Jul 16 09:43:48 klequis kernel: wlp3s0: RX AssocResp from 6c:4b:b4:4f:1b:54 (capab=0x411 status=0 aid=19)
+Jul 16 09:43:48 klequis kernel: wlp3s0: associated
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0482] device (p2p-dev-wlp3s0): supplicant management interface state: authenticating -> associating
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (wlp3s0): supplicant interface state: associating -> 4way_handshake
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (p2p-dev-wlp3s0): supplicant management interface state: associating -> 4way_handshake
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (wlp3s0): ip:dhcp4: restarting
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): canceled DHCP transaction
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): state changed no lease
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] device (wlp3s0): ip:dhcp6: restarting
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): canceled DHCP transaction
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): state changed no lease
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0725] dhcp6 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis kernel: wlp3s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: WPA: Key negotiation completed with 6c:4b:b4:4f:1b:54 [PTK=CCMP GTK=CCMP]
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-CONNECTED - Connection to 6c:4b:b4:4f:1b:54 completed [id=0 id_str=]
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-50 noise=9999 txrate=1000
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.4272] device (wlp3s0): supplicant interface state: 4way_handshake -> completed
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.4274] device (p2p-dev-wlp3s0): supplicant management interface state: 4way_handshake -> completed
+Jul 16 09:43:48 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:48.720] [124] (audio_device_buffer.cc:411): [REC : 10008msec, 44kHz] callbacks: 482, samples: 212562, rate: 21239, rate diff: 52%, level: 79
+Jul 16 09:43:48 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:48.720] [124] (audio_device_buffer.cc:437): [PLAY: 10008msec, 44kHz] callbacks: 482, samples: 212562, rate: 21239, rate diff: 52%, level: 0
+Jul 16 09:43:49 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:49.048] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:49 klequis NetworkManager[788]: <info>  [1657989829.1257] dhcp6 (wlp3s0): state changed new lease, address=2600:1700:4540:c290::17
+Jul 16 09:43:49 klequis dbus-daemon[786]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.9' (uid=0 pid=788 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul 16 09:43:49 klequis systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jul 16 09:43:49 klequis dbus-daemon[786]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 16 09:43:49 klequis systemd[1]: Started Network Manager Script Dispatcher Service.
+Jul 16 09:43:51 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-68 noise=9999 txrate=72200
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.816] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[HEARTBEAT ACK TIMEOUT] reconnecting in 1.34 seconds."]
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.877] [3812] (socket_client.cpp:277): Ping timeout from: 66.22.230.152:50003, seq: 493
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.877] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 494
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.907] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 494, rtt: 30
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.997] [3985] (socket_client.cpp:277): Ping timeout from: 66.22.230.170:50001, seq: 187
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.997] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 188
+Jul 16 09:43:52 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:52.024] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 188, rtt: 27
+Jul 16 09:43:52 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:52.052] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:53 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:53.159] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[RECONNECT] wasClean=false code=4800 reason=Heartbeat timeout."]
+Jul 16 09:43:53 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:53.159] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[CONNECT] wss://seattle3332.discord.media/"]
+Jul 16 09:43:53 klequis NetworkManager[788]: <info>  [1657989833.8077] dhcp4 (wlp3s0): state changed new lease, address=192.168.1.199
+Jul 16 09:43:53 klequis avahi-daemon[782]: Withdrawing address record for 192.168.1.198 on wlp3s0.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Leaving mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.1.198.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Interface wlp3s0.IPv4 no longer relevant for mDNS.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Joining mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.1.199.
+Jul 16 09:43:53 klequis avahi-daemon[782]: New relevant interface wlp3s0.IPv4 for mDNS.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Registering new address record for 192.168.1.199 on wlp3s0.IPv4.
+Jul 16 09:43:55 klequis systemd-logind[814]: Power key pressed.
+Jul 16 09:43:55 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:55.052] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 495
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.903] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 495, rtt: 26
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.998] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 189
+Jul 16 09:43:57 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:57.029] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 189, rtt: 30
+~
+~
+~
+lines 927-1000/1000 (END)
+Jul 16 09:43:44 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:44.921] [120] (rtcp_receiver.cc:309): OnPeriodicRttUpdate: Timeout: No RTCP RR received.
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.047] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.411] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[RECONNECT] wasClean=false code=4800 reason=Heartbeat timeout."]
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.412] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[CONNECT] wss://seattle5189.discord.media/"]
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.722] [3812] (udp_socket.cpp:608): Reconnection started, sending echo
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.876] [3812] (socket_client.cpp:277): Ping timeout from: 66.22.230.152:50003, seq: 492
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 493
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.996] [3985] (socket_client.cpp:277): Ping timeout from: 66.22.230.170:50001, seq: 186
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.996] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 187
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=US
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: SME: Trying to authenticate with 6c:4b:b4:4f:1b:54 (SSID='Proton' freq=2452 MHz)
+Jul 16 09:43:48 klequis kernel: wlp3s0: authenticate with 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0309] device (wlp3s0): supplicant interface state: scanning -> authenticating
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0309] device (p2p-dev-wlp3s0): supplicant management interface state: scanning -> authenticating
+Jul 16 09:43:48 klequis kernel: wlp3s0: send auth to 6c:4b:b4:4f:1b:54 (try 1/3)
+Jul 16 09:43:48 klequis kernel: wlp3s0: authenticated
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: Trying to associate with 6c:4b:b4:4f:1b:54 (SSID='Proton' freq=2452 MHz)
+Jul 16 09:43:48 klequis kernel: wlp3s0: associate with 6c:4b:b4:4f:1b:54 (try 1/3)
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: Associated with 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0481] device (wlp3s0): supplicant interface state: authenticating -> associating
+Jul 16 09:43:48 klequis kernel: wlp3s0: RX AssocResp from 6c:4b:b4:4f:1b:54 (capab=0x411 status=0 aid=19)
+Jul 16 09:43:48 klequis kernel: wlp3s0: associated
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0482] device (p2p-dev-wlp3s0): supplicant management interface state: authenticating -> associating
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (wlp3s0): supplicant interface state: associating -> 4way_handshake
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (p2p-dev-wlp3s0): supplicant management interface state: associating -> 4way_handshake
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (wlp3s0): ip:dhcp4: restarting
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): canceled DHCP transaction
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): state changed no lease
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] device (wlp3s0): ip:dhcp6: restarting
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): canceled DHCP transaction
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): state changed no lease
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0725] dhcp6 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis kernel: wlp3s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: WPA: Key negotiation completed with 6c:4b:b4:4f:1b:54 [PTK=CCMP GTK=CCMP]
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-CONNECTED - Connection to 6c:4b:b4:4f:1b:54 completed [id=0 id_str=]
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-50 noise=9999 txrate=1000
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.4272] device (wlp3s0): supplicant interface state: 4way_handshake -> completed
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.4274] device (p2p-dev-wlp3s0): supplicant management interface state: 4way_handshake -> completed
+Jul 16 09:43:48 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:48.720] [124] (audio_device_buffer.cc:411): [REC : 10008msec, 44kHz] callbacks: 482, samples: 212562, rate: 21239, rate diff: 52%, level: 79
+Jul 16 09:43:48 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:48.720] [124] (audio_device_buffer.cc:437): [PLAY: 10008msec, 44kHz] callbacks: 482, samples: 212562, rate: 21239, rate diff: 52%, level: 0
+Jul 16 09:43:49 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:49.048] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:49 klequis NetworkManager[788]: <info>  [1657989829.1257] dhcp6 (wlp3s0): state changed new lease, address=2600:1700:4540:c290::17
+Jul 16 09:43:49 klequis dbus-daemon[786]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.9' (uid=0 pid=788 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul 16 09:43:49 klequis systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jul 16 09:43:49 klequis dbus-daemon[786]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 16 09:43:49 klequis systemd[1]: Started Network Manager Script Dispatcher Service.
+Jul 16 09:43:51 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-68 noise=9999 txrate=72200
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.816] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[HEARTBEAT ACK TIMEOUT] reconnecting in 1.34 seconds."]
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.877] [3812] (socket_client.cpp:277): Ping timeout from: 66.22.230.152:50003, seq: 493
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.877] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 494
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.907] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 494, rtt: 30
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.997] [3985] (socket_client.cpp:277): Ping timeout from: 66.22.230.170:50001, seq: 187
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.997] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 188
+Jul 16 09:43:52 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:52.024] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 188, rtt: 27
+Jul 16 09:43:52 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:52.052] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:53 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:53.159] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[RECONNECT] wasClean=false code=4800 reason=Heartbeat timeout."]
+Jul 16 09:43:53 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:53.159] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[CONNECT] wss://seattle3332.discord.media/"]
+Jul 16 09:43:53 klequis NetworkManager[788]: <info>  [1657989833.8077] dhcp4 (wlp3s0): state changed new lease, address=192.168.1.199
+Jul 16 09:43:53 klequis avahi-daemon[782]: Withdrawing address record for 192.168.1.198 on wlp3s0.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Leaving mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.1.198.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Interface wlp3s0.IPv4 no longer relevant for mDNS.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Joining mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.1.199.
+Jul 16 09:43:53 klequis avahi-daemon[782]: New relevant interface wlp3s0.IPv4 for mDNS.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Registering new address record for 192.168.1.199 on wlp3s0.IPv4.
+Jul 16 09:43:55 klequis systemd-logind[814]: Power key pressed.
+Jul 16 09:43:55 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:55.052] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 495
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.903] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 495, rtt: 26
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.998] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 189
+Jul 16 09:43:57 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:57.029] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 189, rtt: 30
+~
+~
+~
+lines 927-1000/1000 (END)
+Jul 16 09:43:03 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:03.915] [120] (connection.cpp:644):   Audio ssrc: 261657, packets sent: 46639, packets lost: 50
+Jul 16 09:43:03 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:03.916] [120] (connection.cpp:730): Transport stats for user: 323101648874635264, rtt: 24 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0
+Jul 16 09:43:03 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:03.916] [120] (connection.cpp:752): Memory usage: 946MB, CPU usage:N/A
+Jul 16 09:43:03 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:03.916] [120] (connection.cpp:610): Inbound stats for user: 709088044552028180, audio ssrc: 184893, packets received: 42485, lost: 298, audio frames normal: 0, silent: 88670, expand: 0, video ssrc: 18>
+Jul 16 09:43:03 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:03.917] [120] (connection.cpp:610): Inbound stats for user: 791872343819288626, audio ssrc: 184974, packets received: 7, lost: 0, audio frames normal: 0, silent: 71613, expand: 0, video ssrc: 0, packe>
+Jul 16 09:43:03 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:03.917] [120] (connection.cpp:642): Outbound stats for user: 323101648874635264
+Jul 16 09:43:03 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:03.917] [120] (connection.cpp:644):   Audio ssrc: 184903, packets sent: 8792, packets lost: 1
+Jul 16 09:43:03 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:03.917] [120] (connection.cpp:730): Transport stats for user: 323101648874635264, rtt: 26 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 865256
+Jul 16 09:43:03 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:03.917] [120] (connection.cpp:752): Memory usage: 946MB, CPU usage:N/A
+Jul 16 09:43:04 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:04.019] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:04 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:04.089] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:05 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:05.090] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:05 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:05.805] [120] (connection.cpp:109): Send RTCP NACK with sender ssrc: 184904 for media ssrc: 184894: 51955
+Jul 16 09:43:06 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:06.090] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:06 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:06.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 485
+Jul 16 09:43:06 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:06.902] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 485, rtt: 25
+Jul 16 09:43:06 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:06.995] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 179
+Jul 16 09:43:07 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:07.020] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:07 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:07.021] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 179, rtt: 25
+Jul 16 09:43:07 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:07.090] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:08 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:08.090] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 3.125 [%]
+Jul 16 09:43:08 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:08.683] [124] (audio_device_buffer.cc:411): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 51
+Jul 16 09:43:08 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:08.683] [124] (audio_device_buffer.cc:437): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 22150
+Jul 16 09:43:08 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:08.731] [100] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 2.96 seconds."]
+Jul 16 09:43:08 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:08.759] [127] (captured_audio_processor.cpp:82): Audio frames processed: 242142, noise canceller process time: 0 [ms]
+Jul 16 09:43:08 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:08.759] [127] (captured_audio_processor.cpp:93): Audio frame: 242142, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 5
+Jul 16 09:43:09 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:09.090] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 3.125 [%]
+Jul 16 09:43:09 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:09.484] [100] (discord.cpp:551): JS console: ["BaseConnection.userSpeakingChange: Reduced framerate after 15000 ms."]
+Jul 16 09:43:09 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:09.485] [100] (discord.cpp:551): JS console: ["updateVideoQuality: {}"]
+Jul 16 09:43:09 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:09.485] [120] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 184903, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri>
+Jul 16 09:43:09 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:09.485] [120] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 184903, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri>
+Jul 16 09:43:09 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:09.488] [100] (discord.cpp:551): JS console: ["BaseConnection.userSpeakingChange: Reduced framerate after 15000 ms."]
+Jul 16 09:43:09 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:09.489] [100] (discord.cpp:551): JS console: ["updateVideoQuality: {\n    \"remoteSinkWantsMaxFramerate\": 20\n}"]
+Jul 16 09:43:09 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:09.489] [120] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 261657, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri>
+Jul 16 09:43:09 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:09.489] [120] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 261657, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri>
+Jul 16 09:43:10 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:10.023] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:10 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:10.090] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:10 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:10.566] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+Jul 16 09:43:10 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:10.595] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+Jul 16 09:43:10 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:10.691] [120] (rtcp_receiver.cc:311): OnPeriodicRttUpdate: Timeout: No increase in RTCP RR extended highest sequence number.
+Jul 16 09:43:10 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:10.925] [120] (rtcp_receiver.cc:311): OnPeriodicRttUpdate: Timeout: No increase in RTCP RR extended highest sequence number.
+Jul 16 09:43:11 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:11.091] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:11 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:11.630] [120] (connection.cpp:109): Send RTCP NACK with sender ssrc: 184904 for media ssrc: 184894: 52026
+Jul 16 09:43:11 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:11.671] [120] (connection.cpp:109): Send RTCP NACK with sender ssrc: 184904 for media ssrc: 184894: 52026
+Jul 16 09:43:11 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:11.695] [100] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+Jul 16 09:43:11 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:11.848] [100] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 153 ms"]
+Jul 16 09:43:11 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:11.848] [100] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 22dda4a9f85989566cda795d5d53ed3d, seq: 15058"]
+Jul 16 09:43:11 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:11.849] [100] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[HELLO] via [\"gateway-prd-main-93bs\",{\"micros\":0.0}], heartbeat interval: 41250, took 154 ms"]
+Jul 16 09:43:11 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:11.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 486
+Jul 16 09:43:11 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:11.904] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 486, rtt: 27
+Jul 16 09:43:11 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:11.995] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 180
+Jul 16 09:43:12 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:12.019] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 180, rtt: 24
+Jul 16 09:43:12 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:12.021] [100] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[RESUMED] took 326ms, via [\"gateway-prd-main-93bs\",{\"micros\":40223,\"calls\":[\"discord-sessions-green-prd-2-160\",{\"micros\":11>
+Jul 16 09:43:12 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:12.091] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:13 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:13.024] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:13 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:13.092] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 3.90625 [%]
+Jul 16 09:43:13 klequis com.discordapp.Discord.desktop[15616]: Cannot upload crash dump: failed to open
+Jul 16 09:43:13 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:13.622] [120] (rtp_video_stream_receiver2.cc:664): Packet received on SSRC: 184894 with payload type: 101, timestamp: 1770636032, sequence number: 52052, arrival time: 78544546, toffset: 23490, abs se>
+Jul 16 09:43:14 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:14.091] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 3.90625 [%]
+Jul 16 09:43:14 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:14.925] [120] (rtp_streams_synchronizer2.cc:124): Sync info stats: 78545848, {ssrc: 184893, cur_delay_ms: 281, capture_time_ntp_secs: 3866978591, capture_time_ntp_frac: 59399397, capture_time_source_c>
+Jul 16 09:43:15 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:15.092] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:16 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:16.027] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:16 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:16.092] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:16 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:16.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 487
+Jul 16 09:43:16 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:16.881] [3985] (udp_socket.cpp:608): Reconnection started, sending echo
+Jul 16 09:43:16 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:16.901] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 487, rtt: 24
+Jul 16 09:43:16 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:16.908] [3985] (udp_socket.cpp:195): ReconnectionAttemptFinished: succeeded, local address: 23.123.143.54:38183
+Jul 16 09:43:16 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:16.995] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 181
+Jul 16 09:43:17 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:17.020] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 181, rtt: 24
+Jul 16 09:43:17 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:17.092] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:18 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:18.092] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:18 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:18.692] [124] (audio_device_buffer.cc:411): [REC : 10009msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44104, rate diff: 0%, level: 55
+Jul 16 09:43:18 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:18.692] [124] (audio_device_buffer.cc:437): [PLAY: 10009msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44104, rate diff: 0%, level: 22313
+Jul 16 09:43:18 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:18.761] [127] (captured_audio_processor.cpp:82): Audio frames processed: 243142, noise canceller process time: 0 [ms]
+Jul 16 09:43:18 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:18.761] [127] (captured_audio_processor.cpp:93): Audio frame: 243142, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 0
+Jul 16 09:43:19 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:19.028] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:19 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:19.092] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:20 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:20.093] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:21 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:21.093] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:21 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:21.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 488
+Jul 16 09:43:21 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:21.901] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 488, rtt: 24
+Jul 16 09:43:21 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:21.995] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 182
+Jul 16 09:43:22 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:22.020] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 182, rtt: 25
+Jul 16 09:43:22 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:22.031] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:22 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:22.093] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:23 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:23.093] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:23 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:23.639] [120] (rtp_video_stream_receiver2.cc:664): Packet received on SSRC: 184894 with payload type: 101, timestamp: 1771551242, sequence number: 52174, arrival time: 78554563, toffset: 9810, abs sen>
+Jul 16 09:43:24 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:24.093] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:24 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:24.804] [3814] (rtcp_sender.cc:471): Sender Report {ssrc: 261657, ntp: 3866978604:3456134413, rtp_timestamp: 3073904508, last_rtp_timestamp: 116997120, last_frame_capture_time_ms: 78555716, now_us: 78>
+Jul 16 09:43:25 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:25.032] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:25 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:25.094] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:25 klequis com.discordapp.Discord.desktop[15616]: Unexpected crash report id length
+Jul 16 09:43:25 klequis com.discordapp.Discord.desktop[15616]: Failed to get crash dump id.
+Jul 16 09:43:25 klequis com.discordapp.Discord.desktop[15616]: Report Id:
+Jul 16 09:43:26 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:26.094] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:26 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:26.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 489
+Jul 16 09:43:26 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:26.902] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 489, rtt: 25
+Jul 16 09:43:26 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:26.995] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 183
+Jul 16 09:43:27 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:27.021] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 183, rtt: 26
+Jul 16 09:43:27 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:27.094] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.034] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.094] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:28 klequis kernel: nouveau 0000:01:00.0: Xorg[1911]: failed to idle channel 3 [Xorg[1911]]
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.701] [124] (audio_device_buffer.cc:411): [REC : 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 41
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.701] [124] (audio_device_buffer.cc:437): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 18604
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.763] [127] (captured_audio_processor.cpp:82): Audio frames processed: 244142, noise canceller process time: 0 [ms]
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.763] [127] (captured_audio_processor.cpp:93): Audio frame: 244142, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 0
+Jul 16 09:43:31 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:31.036] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:31 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:31.524] [120] (video_receive_stream2.cc:770): No decodable frame in 3000 ms, requesting keyframe.
+Jul 16 09:43:31 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:31.524] [120] (connection.cpp:96): Send RTCP PLI with sender ssrc: 184904 for media ssrc: 184894
+Jul 16 09:43:31 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:31.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 490
+Jul 16 09:43:31 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:31.995] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 184
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Error sending STATISTICS_CMD: time out after 2000ms.
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Current CMD queue read_ptr 157 write_ptr 158
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Start IWL Error Log Dump:
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Transport status: 0x0000004A, valid: 6
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Loaded firmware version: 29.4063824552.0 7265D-29.ucode
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000280 | trm_hw_status0
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | trm_hw_status1
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00043D6C | branchlink2
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0004B002 | interruptlink1
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0004B002 | interruptlink2
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | data1
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000080 | data2
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x03230000 | data3
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x930131CF | beacon time
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x70621E35 | tsf low
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000135 | tsf hi
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | time gp1
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x03DBA10D | time gp2
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000001 | uCode revision type
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0000001D | uCode version major
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0xF2390AA8 | uCode version minor
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000210 | hw version
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00C89200 | board version
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0A0A001C | hcmd
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00012002 | isr0
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | isr1
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0000000A | isr2
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0041F4C0 | isr3
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | isr4
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0A09001C | last cmd Id
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | wait_event
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00004A88 | l2p_control
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00018024 | l2p_duration
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | l2p_mhvalid
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x000000E7 | l2p_addr_match
+lines 705-778/1000 67%
+Jul 16 09:43:18 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:18.761] [127] (captured_audio_processor.cpp:93): Audio frame: 243142, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, leve>
+Jul 16 09:43:19 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:19.028] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:19 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:19.092] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:20 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:20.093] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:21 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:21.093] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:21 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:21.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 488
+Jul 16 09:43:21 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:21.901] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 488, rtt: 24
+Jul 16 09:43:21 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:21.995] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 182
+Jul 16 09:43:22 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:22.020] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 182, rtt: 25
+Jul 16 09:43:22 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:22.031] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:22 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:22.093] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:23 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:23.093] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:23 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:23.639] [120] (rtp_video_stream_receiver2.cc:664): Packet received on SSRC: 184894 with payload type: 101, timestamp: 1771551242,>
+Jul 16 09:43:24 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:24.093] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:24 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:24.804] [3814] (rtcp_sender.cc:471): Sender Report {ssrc: 261657, ntp: 3866978604:3456134413, rtp_timestamp: 3073904508, last_rtp>
+Jul 16 09:43:25 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:25.032] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:25 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:25.094] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:25 klequis com.discordapp.Discord.desktop[15616]: Unexpected crash report id length
+Jul 16 09:43:25 klequis com.discordapp.Discord.desktop[15616]: Failed to get crash dump id.
+Jul 16 09:43:25 klequis com.discordapp.Discord.desktop[15616]: Report Id:
+Jul 16 09:43:26 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:26.094] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:26 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:26.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 489
+Jul 16 09:43:26 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:26.902] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 489, rtt: 25
+Jul 16 09:43:26 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:26.995] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 183
+Jul 16 09:43:27 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:27.021] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 183, rtt: 26
+Jul 16 09:43:27 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:27.094] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.034] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.094] [120] (connection.cpp:901): Received inbound estimate: 9760000 [bps], loss rate: 0 [%]
+Jul 16 09:43:28 klequis kernel: nouveau 0000:01:00.0: Xorg[1911]: failed to idle channel 3 [Xorg[1911]]
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.701] [124] (audio_device_buffer.cc:411): [REC : 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%>
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.701] [124] (audio_device_buffer.cc:437): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%>
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.763] [127] (captured_audio_processor.cpp:82): Audio frames processed: 244142, noise canceller process time: 0 [ms]
+Jul 16 09:43:28 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:28.763] [127] (captured_audio_processor.cpp:93): Audio frame: 244142, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, leve>
+Jul 16 09:43:31 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:31.036] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:31 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:31.524] [120] (video_receive_stream2.cc:770): No decodable frame in 3000 ms, requesting keyframe.
+Jul 16 09:43:31 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:31.524] [120] (connection.cpp:96): Send RTCP PLI with sender ssrc: 184904 for media ssrc: 184894
+Jul 16 09:43:31 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:31.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 490
+Jul 16 09:43:31 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:31.995] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 184
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Error sending STATISTICS_CMD: time out after 2000ms.
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Current CMD queue read_ptr 157 write_ptr 158
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Start IWL Error Log Dump:
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Transport status: 0x0000004A, valid: 6
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Loaded firmware version: 29.4063824552.0 7265D-29.ucode
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000084 | NMI_INTERRUPT_UNKNOWN       
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000280 | trm_hw_status0
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | trm_hw_status1
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00043D6C | branchlink2
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0004B002 | interruptlink1
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0004B002 | interruptlink2
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | data1
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000080 | data2
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x03230000 | data3
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x930131CF | beacon time
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x70621E35 | tsf low
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000135 | tsf hi
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | time gp1
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x03DBA10D | time gp2
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000001 | uCode revision type
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0000001D | uCode version major
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0xF2390AA8 | uCode version minor
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000210 | hw version
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00C89200 | board version
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0A0A001C | hcmd
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00012002 | isr0
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | isr1
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0000000A | isr2
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0041F4C0 | isr3
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | isr4
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x0A09001C | last cmd Id
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | wait_event
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00004A88 | l2p_control
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00018024 | l2p_duration
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | l2p_mhvalid
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x000000E7 | l2p_addr_match
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000005 | lmpm_pmg_sel
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x03031934 | timestamp
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x1ABCD0D0 | flow_handler
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Fseq Registers:
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | FSEQ_ERROR_CODE
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | FSEQ_OTP_VERSION
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | FSEQ_CNVI_ID
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | FSEQ_CNVR_ID
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Collecting data: trigger 2 fired.
+Jul 16 09:43:33 klequis kernel: ieee80211 phy0: Hardware restart was requested
+Jul 16 09:43:33 klequis pulseaudio[1791]: mSBC decoding error (-2)
+Jul 16 09:43:33 klequis kernel: iwlwifi 0000:03:00.0: Queue 0 is active on fifo 7 and stuck for 2500 ms. SW [157, 158] HW [158, 158] FH TRB=0x070009d
+Jul 16 09:43:33 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:33.934] [3987] (rtcp_sender.cc:471): Sender Report {ssrc: 184903, ntp: 3866978613:4015274730, rtp_timestamp: 3243809507, last_rtp>
+Jul 16 09:43:34 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:34.037] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:34 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:34.707] [120] (rtcp_receiver.cc:311): OnPeriodicRttUpdate: Timeout: No increase in RTCP RR extended highest sequence number.
+Jul 16 09:43:34 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:34.926] [120] (rtcp_receiver.cc:311): OnPeriodicRttUpdate: Timeout: No increase in RTCP RR extended highest sequence number.
+Jul 16 09:43:36 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:36.876] [3812] (socket_client.cpp:277): Ping timeout from: 66.22.230.152:50003, seq: 490
+Jul 16 09:43:36 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:36.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 491
+Jul 16 09:43:36 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:36.996] [3985] (socket_client.cpp:277): Ping timeout from: 66.22.230.170:50001, seq: 184
+Jul 16 09:43:36 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:36.996] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 185
+Jul 16 09:43:37 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:37.040] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:38 klequis kernel: iwlwifi 0000:03:00.0: Queue 10 is active on fifo 1 and stuck for 10000 ms. SW [254, 14] HW [10, 14] FH TRB=0x0c010a00d
+Jul 16 09:43:38 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:38.711] [124] (audio_device_buffer.cc:411): [REC : 10010msec, 44kHz] callbacks: 978, samples: 431298, rate: 43087, rate diff: 2%,>
+Jul 16 09:43:38 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:38.711] [124] (audio_device_buffer.cc:437): [PLAY: 10010msec, 44kHz] callbacks: 978, samples: 431298, rate: 43087, rate diff: 2%,>
+Jul 16 09:43:38 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:38.766] [127] (captured_audio_processor.cpp:82): Audio frames processed: 245119, noise canceller process time: 0 [ms]
+Jul 16 09:43:38 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:38.766] [127] (captured_audio_processor.cpp:93): Audio frame: 245119, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, leve>
+Jul 16 09:43:40 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:40.042] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:41 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:41.876] [3812] (socket_client.cpp:277): Ping timeout from: 66.22.230.152:50003, seq: 491
+Jul 16 09:43:41 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:41.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 492
+Jul 16 09:43:41 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:41.996] [3985] (socket_client.cpp:277): Ping timeout from: 66.22.230.170:50001, seq: 185
+Jul 16 09:43:41 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:41.996] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 186
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.044] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:43 klequis kernel: nouveau 0000:01:00.0: Xorg[1911]: failed to idle channel 3 [Xorg[1911]]
+Jul 16 09:43:43 klequis kernel: nouveau 0000:01:00.0: fifo: fault 00 [READ] at 0000000000013000 engine 07 [HOST0] client 07 [HUB/HOST_CPU] reason 02 [PTE] on channel 3 [007fa3d000 Xorg[1911]]
+Jul 16 09:43:43 klequis kernel: nouveau 0000:01:00.0: fifo: channel 3: killed
+Jul 16 09:43:43 klequis kernel: nouveau 0000:01:00.0: fifo: runlist 0: scheduled for recovery
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: iwl_trans_reclaim bad state = 0
+Jul 16 09:43:43 klequis kernel: nouveau 0000:01:00.0: fifo: engine 5: scheduled for recovery
+Jul 16 09:43:43 klequis kernel: ------------[ cut here ]------------
+Jul 16 09:43:43 klequis kernel: WARNING: CPU: 2 PID: 0 at drivers/gpu/drm/nouveau/nvkm/engine/fifo/gk104.c:284 gk104_fifo_engine_id+0x4f/0x80 [nouveau]
+Jul 16 09:43:43 klequis kernel: Modules linked in: rfcomm ccm cmac algif_hash algif_skcipher af_alg bnep intel_rapl_msr snd_hda_codec_realtek intel_rapl_common snd_hda_codec_generic intel_tcc_cooling x86_pkg_te>
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: iwl_trans_reclaim bad state = 0
+Jul 16 09:43:43 klequis kernel:  mac80211 rapl i915 snd_hda_codec_hdmi nouveau intel_cstate snd_hda_intel snd_intel_dspcfg dell_wmi snd_intel_sdw_acpi libarc4 ledtrig_audio snd_hda_codec dell_smbios snd_seq_mid>
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: iwl_trans_reclaim bad state = 0
+Jul 16 09:43:43 klequis kernel:  snd_seq_midi_event snd_hwdep ttm btintel sparse_keymap snd_rawmidi dell_wmi_descriptor wmi_bmof mxm_wmi snd_pcm 8250_dw bluetooth cfg80211 drm_kms_helper snd_seq ee1004 cec snd_>
+Jul 16 09:43:43 klequis kernel: CPU: 2 PID: 0 Comm: swapper/2 Tainted: G        W I       5.15.0-41-generic #44-Ubuntu
+Jul 16 09:43:43 klequis kernel: Hardware name: Dell Inc. XPS 8910/0WPMFG, BIOS 1.1.12 06/16/2020
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: iwl_trans_reclaim bad state = 0
+Jul 16 09:43:43 klequis kernel: RIP: 0010:gk104_fifo_engine_id+0x4f/0x80 [nouveau]
+Jul 16 09:43:43 klequis kernel: Code: 89 f4 48 85 f6 74 23 48 8d 9f 98 03 00 00 31 c0 48 63 f0 48 83 fe 0f 77 29 4c 3b 23 74 13 83 c0 01 48 83 c3 10 44 39 e8 7c e6 <0f> 0b b8 ff ff ff ff 48 83 c4 08 5b 41 5c 41>
+Jul 16 09:43:43 klequis kernel: RSP: 0018:ffffa546c0178cd8 EFLAGS: 00010046
+Jul 16 09:43:43 klequis kernel: RAX: 0000000000000006 RBX: ffff911ac11b9400 RCX: 0000000000000006
+Jul 16 09:43:43 klequis kernel: RDX: 0000000000000006 RSI: 0000000000000005 RDI: ffff911ac11b9008
+Jul 16 09:43:43 klequis kernel: RBP: ffffa546c0178cf8 R08: 0000000000000000 R09: 0000000000000000
+Jul 16 09:43:43 klequis kernel: R10: 0000000000000006 R11: 0000000000000001 R12: ffff911ac11b9010
+Jul 16 09:43:43 klequis kernel: R13: 0000000000000006 R14: ffff911ac11b9008 R15: ffff911ac11b92b8
+Jul 16 09:43:43 klequis kernel: FS:  0000000000000000(0000) GS:ffff91221ec80000(0000) knlGS:0000000000000000
+Jul 16 09:43:43 klequis kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Jul 16 09:43:43 klequis kernel: CR2: 00003378ce1d3f90 CR3: 000000061a010004 CR4: 00000000003706e0
+Jul 16 09:43:43 klequis kernel: DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+Jul 16 09:43:43 klequis kernel: DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+Jul 16 09:43:43 klequis kernel: Call Trace:
+Jul 16 09:43:43 klequis kernel:  <IRQ>
+Jul 16 09:43:43 klequis kernel:  gk104_fifo_fault+0x10c/0x230 [nouveau]
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: iwl_trans_reclaim bad state = 0
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: iwl_trans_reclaim bad state = 0
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: iwl_trans_reclaim bad state = 0
+Jul 16 09:43:43 klequis kernel:  nvkm_fifo_fault+0x15/0x20 [nouveau]
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: iwl_trans_reclaim bad state = 0
+Jul 16 09:43:43 klequis kernel:  gm107_fifo_intr_fault+0xe0/0x110 [nouveau]
+Jul 16 09:43:43 klequis kernel:  gk104_fifo_intr+0x2a5/0x3c0 [nouveau]
+Jul 16 09:43:43 klequis kernel:  nvkm_fifo_intr+0x1d/0x20 [nouveau]
+Jul 16 09:43:43 klequis kernel:  nvkm_engine_intr+0x1f/0x30 [nouveau]
+Jul 16 09:43:43 klequis kernel:  nvkm_subdev_intr+0x1a/0x20 [nouveau]
+Jul 16 09:43:43 klequis kernel:  nvkm_mc_intr+0x14d/0x190 [nouveau]
+Jul 16 09:43:43 klequis kernel:  nvkm_pci_intr+0x5e/0xb0 [nouveau]
+Jul 16 09:43:43 klequis kernel:  __handle_irq_event_percpu+0x42/0x170
+Jul 16 09:43:43 klequis kernel:  handle_irq_event+0x59/0xb0
+Jul 16 09:43:43 klequis kernel:  handle_edge_irq+0x8c/0x220
+Jul 16 09:43:43 klequis kernel:  __common_interrupt+0x52/0xe0
+Jul 16 09:43:43 klequis kernel:  common_interrupt+0x85/0xa0
+Jul 16 09:43:43 klequis kernel:  </IRQ>
+Jul 16 09:43:43 klequis kernel:  <TASK>
+Jul 16 09:43:43 klequis kernel:  asm_common_interrupt+0x1e/0x40
+Jul 16 09:43:43 klequis kernel: RIP: 0010:cpuidle_enter_state+0xd9/0x620
+Jul 16 09:43:43 klequis kernel: Code: 3d 74 f4 7d 45 e8 47 56 6c ff 49 89 c7 0f 1f 44 00 00 31 ff e8 98 62 6c ff 80 7d d0 00 0f 85 5d 01 00 00 fb 66 0f 1f 44 00 00 <45> 85 f6 0f 88 69 01 00 00 4d 63 ee 49 83 fd>
+Jul 16 09:43:43 klequis kernel: RSP: 0018:ffffa546c00dfe28 EFLAGS: 00000246
+Jul 16 09:43:43 klequis kernel: RAX: ffff91221ecb0b00 RBX: ffffc546bfc80100 RCX: 0000000000000000
+Jul 16 09:43:43 klequis kernel: RDX: 0000000000000000 RSI: 0000000000000002 RDI: 0000000000000000
+Jul 16 09:43:43 klequis kernel: RBP: ffffa546c00dfe78 R08: 00004776623fa667 R09: 0000000000030d40
+Jul 16 09:43:43 klequis kernel: R10: 0000000000000007 R11: 071c71c71c71c71c R12: ffffffffbbed3820
+Jul 16 09:43:43 klequis kernel: R13: 0000000000000003 R14: 0000000000000003 R15: 00004776623fa667
+Jul 16 09:43:43 klequis kernel:  ? cpuidle_enter_state+0xc8/0x620
+Jul 16 09:43:43 klequis kernel:  cpuidle_enter+0x2e/0x40
+Jul 16 09:43:43 klequis kernel:  cpuidle_idle_call+0x13e/0x1e0
+Jul 16 09:43:43 klequis kernel:  do_idle+0x83/0xf0
+Jul 16 09:43:43 klequis kernel:  cpu_startup_entry+0x20/0x30
+Jul 16 09:43:43 klequis kernel:  start_secondary+0x12a/0x180
+Jul 16 09:43:43 klequis kernel:  secondary_startup_64_no_verify+0xc2/0xcb
+Jul 16 09:43:43 klequis kernel:  </TASK>
+Jul 16 09:43:43 klequis kernel: ---[ end trace d3a6bdb4fef29d01 ]---
+Jul 16 09:43:43 klequis kernel: nouveau 0000:01:00.0: Xorg[1911]: channel 3 killed!
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: gzip: /tmp/chromium-upload-82f86687560c84ec: No such file or directory
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: Applying debug destination EXTERNAL_DRAM
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: Applying debug destination EXTERNAL_DRAM
+Jul 16 09:43:43 klequis kernel: iwlwifi 0000:03:00.0: FW already configured (0) - re-configuring
+Jul 16 09:43:43 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=WORLD
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.571] [100] (discord.cpp:551): JS console: ["updateVideoQuality: {}"]
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.571] [120] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 184903, extmap-allow-mixed: false, exten>
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.571] [120] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 184903, extmap-allow-mixed: false, exten>
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.578] [100] (discord.cpp:551): JS console: ["updateVideoQuality: {\n    \"remoteSinkWantsMaxFramerate\": 30\n}"]
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.580] [120] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 261657, extmap-allow-mixed: false, exten>
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.580] [120] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 261657, extmap-allow-mixed: false, exten>
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.587] [126] (audio_device_pulse_linux.cc:1768): Playout underflow
+Jul 16 09:43:43 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-65 noise=9999 txrate=325000
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.699] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.699] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.700] [120] (connection.cpp:610): Inbound stats for user: 709088044552028180, audio ssrc: 261648, packets received: 49038, lost>
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.700] [120] (connection.cpp:610): Inbound stats for user: 150338205202382849, audio ssrc: 261662, packets received: 3872, lost:>
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.701] [120] (connection.cpp:610): Inbound stats for user: 549925403079344130, audio ssrc: 261656, packets received: 5474, lost:>
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.701] [120] (connection.cpp:610): Inbound stats for user: 791872343819288626, audio ssrc: 261765, packets received: 5712, lost:>
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.701] [120] (connection.cpp:642): Outbound stats for user: 323101648874635264
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.701] [120] (connection.cpp:644):   Audio ssrc: 261657, packets sent: 46666, packets lost: 50
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.701] [120] (connection.cpp:730): Transport stats for user: 323101648874635264, rtt: -1 [ms], available bitrate: 600000 [bps], >
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.701] [120] (connection.cpp:752): Memory usage: 969MB, CPU usage:N/A
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.702] [120] (connection.cpp:610): Inbound stats for user: 709088044552028180, audio ssrc: 184893, packets received: 43702, lost>
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.702] [120] (connection.cpp:610): Inbound stats for user: 791872343819288626, audio ssrc: 184974, packets received: 7, lost: 0,>
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.702] [120] (connection.cpp:642): Outbound stats for user: 323101648874635264
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.702] [120] (connection.cpp:644):   Audio ssrc: 184903, packets sent: 8818, packets lost: 1
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.702] [120] (connection.cpp:730): Transport stats for user: 323101648874635264, rtt: -1 [ms], available bitrate: 600000 [bps], >
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.703] [120] (connection.cpp:752): Memory usage: 969MB, CPU usage:N/A
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.707] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[HEARTBEAT ACK TIMEOUT] reconnecting in 2.70 seconds."]
+Jul 16 09:43:43 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:43.753] [120] (rtcp_receiver.cc:309): OnPeriodicRttUpdate: Timeout: No RTCP RR received.
+Jul 16 09:43:44 klequis kernel: wlp3s0: deauthenticating from 6c:4b:b4:4f:1b:58 by local choice (Reason: 2=PREV_AUTH_NOT_VALID)
+Jul 16 09:43:44 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-DISCONNECTED bssid=6c:4b:b4:4f:1b:58 reason=2 locally_generated=1
+Jul 16 09:43:44 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 16 09:43:44 klequis NetworkManager[788]: <info>  [1657989824.6899] device (wlp3s0): supplicant interface state: completed -> disconnected
+Jul 16 09:43:44 klequis NetworkManager[788]: <info>  [1657989824.6900] device (p2p-dev-wlp3s0): supplicant management interface state: completed -> disconnected
+Jul 16 09:43:44 klequis NetworkManager[788]: <info>  [1657989824.7900] device (wlp3s0): supplicant interface state: disconnected -> scanning
+Jul 16 09:43:44 klequis NetworkManager[788]: <info>  [1657989824.7900] device (p2p-dev-wlp3s0): supplicant management interface state: disconnected -> scanning
+Jul 16 09:43:44 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:44.921] [120] (rtcp_receiver.cc:309): OnPeriodicRttUpdate: Timeout: No RTCP RR received.
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.047] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.411] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[RECONNECT] wasClean=false code=4800 reason=Heartbeat timeo>
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.412] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[CONNECT] wss://seattle5189.discord.media/"]
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.722] [3812] (udp_socket.cpp:608): Reconnection started, sending echo
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.876] [3812] (socket_client.cpp:277): Ping timeout from: 66.22.230.152:50003, seq: 492
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 493
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.996] [3985] (socket_client.cpp:277): Ping timeout from: 66.22.230.170:50001, seq: 186
+Jul 16 09:43:46 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:46.996] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 187
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=US
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: SME: Trying to authenticate with 6c:4b:b4:4f:1b:54 (SSID='Proton' freq=2452 MHz)
+Jul 16 09:43:48 klequis kernel: wlp3s0: authenticate with 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0309] device (wlp3s0): supplicant interface state: scanning -> authenticating
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0309] device (p2p-dev-wlp3s0): supplicant management interface state: scanning -> authenticating
+Jul 16 09:43:48 klequis kernel: wlp3s0: send auth to 6c:4b:b4:4f:1b:54 (try 1/3)
+Jul 16 09:43:48 klequis kernel: wlp3s0: authenticated
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: Trying to associate with 6c:4b:b4:4f:1b:54 (SSID='Proton' freq=2452 MHz)
+Jul 16 09:43:48 klequis kernel: wlp3s0: associate with 6c:4b:b4:4f:1b:54 (try 1/3)
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: Associated with 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0481] device (wlp3s0): supplicant interface state: authenticating -> associating
+Jul 16 09:43:48 klequis kernel: wlp3s0: RX AssocResp from 6c:4b:b4:4f:1b:54 (capab=0x411 status=0 aid=19)
+Jul 16 09:43:48 klequis kernel: wlp3s0: associated
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0482] device (p2p-dev-wlp3s0): supplicant management interface state: authenticating -> associating
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (wlp3s0): supplicant interface state: associating -> 4way_handshake
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (p2p-dev-wlp3s0): supplicant management interface state: associating -> 4way_handshake
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0536] device (wlp3s0): ip:dhcp4: restarting
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): canceled DHCP transaction
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0723] dhcp4 (wlp3s0): state changed no lease
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] device (wlp3s0): ip:dhcp6: restarting
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): canceled DHCP transaction
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0724] dhcp6 (wlp3s0): state changed no lease
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.0725] dhcp6 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Jul 16 09:43:48 klequis kernel: wlp3s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 6c:4b:b4:4f:1b:54
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: WPA: Key negotiation completed with 6c:4b:b4:4f:1b:54 [PTK=CCMP GTK=CCMP]
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-CONNECTED - Connection to 6c:4b:b4:4f:1b:54 completed [id=0 id_str=]
+Jul 16 09:43:48 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-50 noise=9999 txrate=1000
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.4272] device (wlp3s0): supplicant interface state: 4way_handshake -> completed
+Jul 16 09:43:48 klequis NetworkManager[788]: <info>  [1657989828.4274] device (p2p-dev-wlp3s0): supplicant management interface state: 4way_handshake -> completed
+Jul 16 09:43:48 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:48.720] [124] (audio_device_buffer.cc:411): [REC : 10008msec, 44kHz] callbacks: 482, samples: 212562, rate: 21239, rate diff: 52%>
+Jul 16 09:43:48 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:48.720] [124] (audio_device_buffer.cc:437): [PLAY: 10008msec, 44kHz] callbacks: 482, samples: 212562, rate: 21239, rate diff: 52%>
+Jul 16 09:43:49 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:49.048] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:49 klequis NetworkManager[788]: <info>  [1657989829.1257] dhcp6 (wlp3s0): state changed new lease, address=2600:1700:4540:c290::17
+Jul 16 09:43:49 klequis dbus-daemon[786]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.9' (uid=0 pid=788 comm=>
+Jul 16 09:43:49 klequis systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jul 16 09:43:49 klequis dbus-daemon[786]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 16 09:43:49 klequis systemd[1]: Started Network Manager Script Dispatcher Service.
+Jul 16 09:43:51 klequis wpa_supplicant[819]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-68 noise=9999 txrate=72200
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.816] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[HEARTBEAT ACK TIMEOUT] reconnecting in 1.34 seconds."]
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.877] [3812] (socket_client.cpp:277): Ping timeout from: 66.22.230.152:50003, seq: 493
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.877] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 494
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.907] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 494, rtt: 30
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.997] [3985] (socket_client.cpp:277): Ping timeout from: 66.22.230.170:50001, seq: 187
+Jul 16 09:43:51 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:51.997] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 188
+Jul 16 09:43:52 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:52.024] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 188, rtt: 27
+Jul 16 09:43:52 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:52.052] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:53 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:53.159] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[RECONNECT] wasClean=false code=4800 reason=Heartbeat timeo>
+Jul 16 09:43:53 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:53.159] [100] (discord.cpp:551): JS console: ["%c[RTCControlSocket]","[CONNECT] wss://seattle3332.discord.media/"]
+Jul 16 09:43:53 klequis NetworkManager[788]: <info>  [1657989833.8077] dhcp4 (wlp3s0): state changed new lease, address=192.168.1.199
+Jul 16 09:43:53 klequis avahi-daemon[782]: Withdrawing address record for 192.168.1.198 on wlp3s0.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Leaving mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.1.198.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Interface wlp3s0.IPv4 no longer relevant for mDNS.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Joining mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.1.199.
+Jul 16 09:43:53 klequis avahi-daemon[782]: New relevant interface wlp3s0.IPv4 for mDNS.
+Jul 16 09:43:53 klequis avahi-daemon[782]: Registering new address record for 192.168.1.199 on wlp3s0.IPv4.
+Jul 16 09:43:55 klequis systemd-logind[814]: Power key pressed.
+Jul 16 09:43:55 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:55.052] [121] (device_info_linux.cc:45): NumberOfDevices
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.876] [3812] (udp_socket.cpp:875): Sending ping to 66.22.230.152:50003, seq: 495
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.903] [3812] (socket_client.cpp:263): Ping received from 66.22.230.152:50003, seq: 495, rtt: 26
+Jul 16 09:43:56 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:56.998] [3985] (udp_socket.cpp:875): Sending ping to 66.22.230.170:50001, seq: 189
+Jul 16 09:43:57 klequis com.discordapp.Discord.desktop[15616]: [2022-07-16 09:43:57.029] [3985] (socket_client.cpp:263): Ping received from 66.22.230.170:50001, seq: 189, rtt: 30
